@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #303a4b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  font-family: 'Lobster Two', cursive;
+  font-size: 100px;
+  color: #cfc5b4;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: space-between;
+  align-items: center;
+  margin: 50px;
+
+  font-family: 'Nova Round', cursive;
+  color: #d2b48c;
+  font-size: 20px;
+  list-style: none;
+  
+  height: 50px;
+  width:  500px;
+  border: 1px ridge #cfc5b4;
+ /* b */
+}
+
+.nom {
+  margin-right: 20px;
+}
+
+.delete_button{
+  height: 20px;;
+  width: 50px;
+  background-color: #d2b48c;
+  color: #303a4b
+}
+
+.btn-confirmer{
+  font-family: 'Nova Round', cursive;
+  color: #303a4b;
+  background-color: #d2b48c;
+}
+
+input {
+  background-color: #cfc5b4;
 }
